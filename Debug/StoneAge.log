@@ -1,0 +1,159 @@
+﻿生成启动时间为 2018/10/16 星期二 下午 6:36:16。
+     1>项目“C:\Users\Administrator\Desktop\SA\StoneAge\StoneAge.vcxproj”在节点 2 上(build 个目标)。
+       项目文件包含 ToolsVersion="15.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在对“.\Debug\StoneAge.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\mylua\lua /I.\sdk\ /I.\sdk\dxsdk\Include /ZI /nologo /W0 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _DEBUG_MSG /D NO_TERMINATER /D DI_2 /D _CRT_SECURE_NO_DEPRECATE /D _LUA_ENCRYPTION /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHa /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa".\Debug/" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug/" /Gd /TP /analyze- /errorReport:prompt mylua\data.cpp mylua\lssproto.cpp mylua\sa.cpp mylua\ServerList.cpp mylua\win.cpp mylua\winlua.cpp "mylua\光环lua.cpp" "mylua\皮肤lua.cpp" "mylua\称号lua.cpp" other\PtternSeparationBin.cpp system\action.cpp system\AI_Setting.cpp system\battleMap.cpp system\battleMenu.cpp system\battleProc.cpp system\CCA_ServerListCtrl.cpp system\character.cpp system\chat.cpp system\directDraw.cpp system\field.cpp system\font.cpp system\gamemain.cpp system\Gemini.cpp system\handletime.cpp system\Help.cpp system\ime.cpp system\init.cpp system\JL_func.cpp system\loadrealbin.cpp system\loadsprbin.cpp system\login.cpp system\lssproto_cli.cpp system\lssproto_util.cpp system\main.cpp system\map.cpp system\math2.cpp system\menu.cpp system\mouse.cpp system\netmain.cpp system\netproc.cpp oft\oft.cpp ohta\Ohta.cpp ohta\ohta_proc.cpp oft\pat_dat.cpp system\Pattern.cpp system\pc.cpp system\phonemsg.cpp system\process.cpp system\produce.cpp system\Radar.cpp system\savedata.cpp system\SkyIsland.cpp system\Sprdisp.cpp system\sprmgr.cpp oft\sys2.cpp system\t_music.cpp system\TalkWindow.cpp oft\tekecess.cpp system\test.cpp system\testView.cpp system\tool.cpp system\unpack.cpp oft\Work.cpp "system\光环.cpp" "system\皮肤.cpp" "system\英雄称号.cpp" Wgs\Common.cpp wgs\descrypt.cpp Wgs\Message.cpp Wgs\ReProc.cpp NewProto\autil.cpp NewProto\protocol.cpp wgs\tea.cpp
+         data.cpp
+         lssproto.cpp
+         sa.cpp
+         ServerList.cpp
+         win.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         winlua.cpp
+         光环lua.cpp
+         皮肤lua.cpp
+         称号lua.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         PtternSeparationBin.cpp
+         action.cpp
+         AI_Setting.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         battleMap.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         battleMenu.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         battleProc.cpp
+         CCA_ServerListCtrl.cpp
+         character.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         chat.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         directDraw.cpp
+         field.cpp
+         font.cpp
+         gamemain.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\character.cpp(1): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         Gemini.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         handletime.cpp
+         Help.cpp
+         ime.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\field.cpp(1): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         init.cpp
+         JL_func.cpp
+         loadrealbin.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\directdraw.cpp(2): fatal error C1083: 无法打开包括文件:“stdlib.h”: No such file or directory
+         loadsprbin.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         login.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         lssproto_cli.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\jl_func.cpp(3): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         lssproto_util.cpp
+         main.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         map.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         math2.cpp
+         menu.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\login.cpp(5): fatal error C1083: 无法打开包括文件:“string.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\system\lssproto_cli.cpp(70): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         mouse.cpp
+         netmain.cpp
+         netproc.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\map.cpp(1): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\system\lssproto_util.cpp(3): fatal error C1083: 无法打开包括文件:“Windows.h”: No such file or directory
+         oft.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         Ohta.cpp
+         ohta_proc.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\system\math2.cpp(4): fatal error C1083: 无法打开包括文件:“math.h”: No such file or directory
+         pat_dat.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         Pattern.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         pc.cpp
+         phonemsg.cpp
+         process.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         produce.cpp
+         Radar.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\netproc.cpp(1): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+         savedata.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         SkyIsland.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         Sprdisp.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         sprmgr.cpp
+         sys2.cpp
+         t_music.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\system\savedata.cpp(1): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         TalkWindow.cpp
+         tekecess.cpp
+         test.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\system\t_music.cpp(1): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+         testView.cpp
+         tool.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         unpack.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\oft\sys2.cpp(4): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+         Work.cpp
+         光环.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         皮肤.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         英雄称号.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\tool.cpp(1): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\system\unpack.cpp(1): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         Common.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         descrypt.cpp
+         Message.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\皮肤.cpp(1): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+         ReProc.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\systeminc\version.h(5): fatal error C1083: 无法打开包括文件:“crtdbg.h”: No such file or directory
+         autil.cpp
+         protocol.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\光环.cpp(1): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+         tea.cpp
+     1>c:\users\administrator\desktop\sa\stoneage\system\英雄称号.cpp(1): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\wgs\common.cpp(5): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\wgs\descrypt.cpp(6): fatal error C1083: 无法打开包括文件:“string.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\wgs\reproc.cpp(1): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\newproto\autil.cpp(10): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\wgs\message.cpp(5): fatal error C1083: 无法打开包括文件:“stdio.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\wgs\tea.cpp(1): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+     1>c:\users\administrator\desktop\sa\stoneage\newproto\protocol.cpp(3): fatal error C1083: 无法打开包括文件:“windows.h”: No such file or directory
+     1>已完成生成项目“C:\Users\Administrator\Desktop\SA\StoneAge\StoneAge.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.76

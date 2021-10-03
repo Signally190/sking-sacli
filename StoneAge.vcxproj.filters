@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{47274960-88d5-4d8b-ae18-7c23ee3f810e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8b26836b-53d9-42c0-b29d-b9da0b95c56d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9bbb2236-b5f5-49b6-a35b-ff0199b05904}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="WGS">
+      <UniqueIdentifier>{42f13edf-28ee-4162-bf9f-f5adfb526839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d1507602-b427-4dec-8dae-4e248c122b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="New Protocol">
+      <UniqueIdentifier>{8c784989-4c39-4174-8b86-8879233a2be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLua">
+      <UniqueIdentifier>{8cc7f42e-1feb-4683-b3f2-6b505b09a237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{a8181c63-97ab-4a42-a5c0-d7546c5f1f83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="system\action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\AI_Setting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\battleMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\battleMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\battleProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\chat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\directDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\gamemain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Gemini.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\handletime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Help.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\ime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\loadrealbin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\loadsprbin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\lssproto_cli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\lssproto_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\math2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\netmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\netproc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oft\oft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ohta\Ohta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ohta\ohta_proc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oft\pat_dat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\pc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\phonemsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\produce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Radar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\savedata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\SkyIsland.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Sprdisp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\sprmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oft\sys2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\t_music.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\TalkWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oft\tekecess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\testView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\unpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oft\Work.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wgs\Common.cpp">
+      <Filter>WGS</Filter>
+    </ClCompile>
+    <ClCompile Include="wgs\descrypt.cpp">
+      <Filter>WGS</Filter>
+    </ClCompile>
+    <ClCompile Include="Wgs\Message.cpp">
+      <Filter>WGS</Filter>
+    </ClCompile>
+    <ClCompile Include="Wgs\ReProc.cpp">
+      <Filter>WGS</Filter>
+    </ClCompile>
+    <ClCompile Include="NewProto\autil.cpp">
+      <Filter>New Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="NewProto\protocol.cpp">
+      <Filter>New Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="system\JL_func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\CCA_ServerListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\data.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\lssproto.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\sa.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\ServerList.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\win.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\winlua.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="other\PtternSeparationBin.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="wgs\tea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\光环lua.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\皮肤lua.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="mylua\称号lua.cpp">
+      <Filter>MyLua</Filter>
+    </ClCompile>
+    <ClCompile Include="system\光环.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\皮肤.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system\英雄称号.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="other\WMIInfo.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="PetRanking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="systeminc\action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\anim_tbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="anim_tbl_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\battleMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\battleMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\battleProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="caryIme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\chat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\directDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\gamemain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\gemini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\handletime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\ime_sa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\loadrealbin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\loadsprbin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\lssproto_cli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\lssproto_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\math2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\netmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\netproc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ohta\ohta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\pattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\pc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\pet_skillinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oft\pl01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\produce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\radar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\savedata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\sprdisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\sprmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oft\sys2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\t_music.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\TalkWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="system\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\testView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\unpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oft\Vg410.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oft\Work.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wgs\descrypt.h">
+      <Filter>WGS</Filter>
+    </ClInclude>
+    <ClInclude Include="Wgs\message.h">
+      <Filter>WGS</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\BattleBcDeb.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\battleMapName.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\BattleMvDeb.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\palName.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\petName.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\sndcnf.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="NewProto\autil.h">
+      <Filter>New Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="NewProto\protocol.h">
+      <Filter>New Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\EncryptClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\JL_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\CCA_ServerListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mylua\lssproto.h">
+      <Filter>MyLua</Filter>
+    </ClInclude>
+    <ClInclude Include="mylua\winlua.h">
+      <Filter>MyLua</Filter>
+    </ClInclude>
+    <ClInclude Include="system\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="system\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="other\PtternSeparationBin.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\VMProtectSDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wgs\tea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systeminc\光环称号皮肤.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="other\WMIInfo.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="PetRanking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pointer.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Porttalk.sys" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="caryIme.lib" />
+    <Library Include="GetMacAddress.lib" />
+    <Library Include="IPHlpApi.Lib" />
+    <Library Include="MemLib.lib" />
+    <Library Include="MMOGprotect.lib" />
+    <Library Include="ddraw.lib" />
+    <Library Include="dinput.lib" />
+    <Library Include="dsound.lib" />
+    <Library Include="dxguid.lib" />
+    <Library Include="libeay32.lib" />
+    <Library Include="ssleay32.lib" />
+    <Library Include="system\zlib.lib" />
+  </ItemGroup>
+</Project>
