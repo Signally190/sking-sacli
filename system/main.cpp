@@ -3,6 +3,7 @@
 #include <ctime>
 #include <thread>
 #include <iostream>
+#include <vector>
 #include "../systeminc/version.h"
 #include "../systeminc/system.h"
 #include <winnls32.h>
@@ -199,20 +200,48 @@ void CreateCompatibleDEVMODE(DEVMODE* pdm, DWORD BitsPerPixel, DWORD Width, DWOR
 
 void detectSpeedHack()
 {
-	auto start = std::chrono::system_clock::now();
-	auto end = std::chrono::system_clock::now();
-	while (1) {
-		auto new_end = std::chrono::system_clock::now();
-		std::chrono::duration<double> elapsed_seconds = new_end - end;
-		std::time_t end_time = std::chrono::system_clock::to_time_t(new_end);
-		end = new_end;
-		// std::cout << float(elapsed_seconds.count()) << "\n";
-		if (float(elapsed_seconds.count()) > 2) {
-			Sleep(2000);
-			exit(0);
-		}
-		Sleep(1000);
-	}
+    static float threshold = 1.1;
+    static int windowSize = 3;
+    static int maxStage = 2;
+    int stage = 0;
+    float elapsedArray[3];
+    for (auto& n : elapsedArray)
+        n = 0;
+
+    auto last = std::chrono::steady_clock::now();
+    Sleep(1000);
+    int count = 0;
+    while (1) {
+        auto now = std::chrono::steady_clock::now();
+        std::chrono::duration<float> elapsed = now - last;
+        float elapsedCount = float(elapsed.count());
+        for (auto& n : elapsedArray)
+            if (n == 0) {
+                n = elapsedCount;
+                break;
+            }
+
+        if (elapsedArray[windowSize-1] != 0) {
+            float sum = 0;
+            for (auto& n : elapsedArray)
+                sum += n;
+            if ((sum/windowSize) > threshold) {
+                if (stage >= maxStage) {
+                    Sleep(5000);
+                    exit(0);
+                }
+                stage++;
+            }
+            for (auto& n : elapsedArray)
+                n = 0;
+        } else if (count > 60*60) {
+            count = 0;
+            stage = 0;
+        }
+        last = now;
+        count++;
+        Sleep(1000);
+    }
 }
 
 int main()
