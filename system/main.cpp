@@ -2,6 +2,7 @@
 #include <chrono>
 #include <ctime>
 #include <thread>
+#include <iostream>
 #include "../systeminc/version.h"
 #include "../systeminc/system.h"
 #include <winnls32.h>
@@ -33,7 +34,7 @@
 
 //JL
 #include "../systeminc/JL_func.h"
-#include "..\winlua.h"
+#include "../mylua/winlua.h"
 HINSTANCE StoneageNg=NULL;
 
 
@@ -198,7 +199,6 @@ void CreateCompatibleDEVMODE(DEVMODE* pdm, DWORD BitsPerPixel, DWORD Width, DWOR
 
 void detectSpeedHack()
 {
-	int count = 0;
 	auto start = std::chrono::system_clock::now();
 	auto end = std::chrono::system_clock::now();
 	while (1) {
@@ -206,12 +206,18 @@ void detectSpeedHack()
 		std::chrono::duration<double> elapsed_seconds = new_end - end;
 		std::time_t end_time = std::chrono::system_clock::to_time_t(new_end);
 		end = new_end;
+		// std::cout << float(elapsed_seconds.count()) << "\n";
 		if (float(elapsed_seconds.count()) > 2) {
 			Sleep(2000);
 			exit(0);
 		}
 		Sleep(1000);
 	}
+}
+
+int main()
+{
+	return WinMain(GetModuleHandle(NULL), NULL, GetCommandLineA(), SW_SHOWNORMAL);
 }
 
 int PASCAL WinMain( HINSTANCE hInstance ,HINSTANCE hPrevInstance ,LPSTR lpCmdLine ,int nCmdShow )
