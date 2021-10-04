@@ -3,7 +3,6 @@
 #include <ctime>
 #include <thread>
 #include <iostream>
-#include <vector>
 #include "../systeminc/version.h"
 #include "../systeminc/system.h"
 #include <winnls32.h>
