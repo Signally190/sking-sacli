@@ -13,13 +13,13 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='本地release|Win32'">
-    <LocalDebuggerCommand>D:\Stone Age\source code\매\client\sa_8003</LocalDebuggerCommand>
-    <LocalDebuggerWorkingDirectory>D:\Stone Age\source code\매\client\</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommand>C:\ssm-sacli\sa_8003</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>C:\ssm-sacli\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='2019compiler|Win32'">
-    <LocalDebuggerCommand>C:\Users\gg862\OneDrive\바탕 화면\FLFL\sa_8003</LocalDebuggerCommand>
-    <LocalDebuggerWorkingDirectory>C:\Users\gg862\OneDrive\바탕 화면\FLFL\</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommand>C:\ssm-sacli\sa_8003</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>C:\ssm-sacli\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017二区debug|Win32'">

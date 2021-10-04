@@ -15,7 +15,7 @@
 //JL
 #include "../systeminc/JL_func.h"
 #include "../systeminc/menu.h"
-#include "PetRanking.h"
+#include "../PetRanking.h"
 
 extern int g_服务器;
 
