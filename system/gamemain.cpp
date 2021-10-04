@@ -1058,11 +1058,11 @@ BOOL InitGame( void )
 #endif
 	util_Init();
 	if( InitDirectDraw() == FALSE ){
-		MessageBox( hWnd, "初始化DirectDraw失败！", "??", MB_OK | MB_ICONSTOP );
+		MessageBox( hWnd, "initialization DirectDraw fail!", "??", MB_OK | MB_ICONSTOP );
 		return FALSE;
 	}
 	if( InitOffScreenSurface() == FALSE ){
-		MessageBox( hWnd, "初始化Off Screan Surface失败！", "??", MB_OK | MB_ICONSTOP );
+		MessageBox( hWnd, "initialization Off Screan Surface fail!", "??", MB_OK | MB_ICONSTOP );
 		return FALSE;
 	}
 	if( InitPalette() == FALSE )
@@ -1070,7 +1070,7 @@ BOOL InitGame( void )
 
 	BOOL initRealbinFileOpen(char *realbinfilename, char *addrbinfilename);
 	if( initRealbinFileOpen( realBinName, adrnBinName ) == FALSE ) {
-		MessageBox( hWnd, "开启Real.bin失败！", "??", MB_OK | MB_ICONSTOP );
+		MessageBox( hWnd, "Open Real.bin fail!", "??", MB_OK | MB_ICONSTOP );
 		return FALSE;
 	}
 	//  [10/22/2010 %WXY%]

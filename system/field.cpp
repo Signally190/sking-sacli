@@ -40,7 +40,7 @@ extern int nPetItemEquipBmpNumber[PET_EQUIPNUM][2];
 #endif
 
 #include "../systeminc/field.h"
-#include "PetRanking.h"
+#include "../PetRanking.h"
 
 #ifdef _NB_管理模式				//[관리모형]
 bool GM管理开关 = false;		//[관리스위치]
