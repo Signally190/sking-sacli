@@ -488,7 +488,7 @@ unsigned int TimeGetTime(void);
 #define _PTTERN_SEPARATION_BIN				// 分离补丁加载
 
 #ifndef _NB_管理模式
-#define 分离补丁加密						// 分离补丁加密
+#define 分离补丁加密						// 분리 패치 암호화
 #endif
 #ifdef 分离补丁加密
 #define _分离补丁目录 ".//sabin"
