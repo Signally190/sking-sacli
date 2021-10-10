@@ -382,13 +382,13 @@ int PASCAL WinMain( HINSTANCE hInstance ,HINSTANCE hPrevInstance ,LPSTR lpCmdLin
 	strcpy(realtrueBinName,REALTRUEBIN_DIR);
 	strcpy(adrntrueBinName,ADRNTRUEBIN_DIR);
 #endif
-	//コマンドライン解析 
+	//명령라인분석 
 	AnalyzeCmdLine();
 	memset(lpCmdLine, 0, strlen(lpCmdLine));
-	// 解像度モード設定
+	// 해상도모드설정
 
 	SetResoMode( ResoMode );
-	// ウィンドウの作成
+	// 창만들기
 	ChangeWindowMode();
 #ifdef _TALK_WINDOW
 	TalkWindow.Init(hWnd,hInstance);
@@ -495,7 +495,7 @@ void DebugKey( char *str )
 }
 
 #endif
-/* コマンドライン解析 *********************************************************/
+/* 명령라인분석 *********************************************************/
 extern BOOL bNewServer;
 void AnalyzeCmdLine( void )
 {
