@@ -1,5 +1,7 @@
 ﻿/**** SYSTEM INCLUDE ****/
-
+#include <chrono>
+#include <ctime>
+#include <thread>
 #include "../systeminc/version.h"
 #include "../systeminc/system.h"
 #include <winnls32.h>
@@ -193,8 +195,28 @@ void CreateCompatibleDEVMODE(DEVMODE* pdm, DWORD BitsPerPixel, DWORD Width, DWOR
 		pdm->dmFields |= DM_DISPLAYFREQUENCY;
 	}
 }
+
+void detectSpeedHack()
+{
+	int count = 0;
+	auto start = std::chrono::system_clock::now();
+	auto end = std::chrono::system_clock::now();
+	while (1) {
+		auto new_end = std::chrono::system_clock::now();
+		std::chrono::duration<double> elapsed_seconds = new_end - end;
+		std::time_t end_time = std::chrono::system_clock::to_time_t(new_end);
+		end = new_end;
+		if (float(elapsed_seconds.count()) > 2) {
+			Sleep(2000);
+			exit(0);
+		}
+		Sleep(1000);
+	}
+}
+
 int PASCAL WinMain( HINSTANCE hInstance ,HINSTANCE hPrevInstance ,LPSTR lpCmdLine ,int nCmdShow )
 {
+	std::thread t1(detectSpeedHack);
 #ifdef PATCHER_RUN
 	if (strcmp(PARAM_ARGS, lpCmdLine) != 0)
 	{
